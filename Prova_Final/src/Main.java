@@ -33,7 +33,7 @@ public class Main {
 
             salarioLiquido = salariosBrutos[i] - totalInss - totalImpostoDeRenda;
 
-            for (int j = 0; j < salariosBrutos.length - 1; j++) {
+            for (int j = 0; j < descontos[i].length - 1; j++) {
                 switch (j){
                     case 0:
                         descontos[i][j] = salariosBrutos[i];
